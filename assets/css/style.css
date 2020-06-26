@@ -1,30 +1,47 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    /* changed to right  */
+     margin: 0;
 }
 
 body {
-    background-color: #d9dcd6;
+    /* background-color: #d9dcd6;  */
+    background-color: lightgoldenrodyellow;
+    /* background-image: url(https://banner2.cleanpng.com/20180511/gzw/kisspng-digital-marketing-marketing-automation-business-to-5af61803de2996.52705663152607744391.jpg);  */
+    /* background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Modern-NYC-Skyline-Simple-Background-Image-.jpg);  */
+    /* background-repeat:repeat;  */
+
+
+
 }
 
 .header {
+    /* padding: 20px;  */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    /* background-color:#792b5e;  */
+    background-color: #4b445d; 
+    color:  #6ee657b8;
+    display: flex;
+   
 }
 
 .header h1 {
     display: inline-block;
+ 
     font-size: 48px;
+    display: flex;
+    
+
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+       color: #d9dcd6; 
+    /* color: #584b77; */
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +49,18 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
+.header nav ul {
+    list-style-type: none; 
+   /*  */
+    /* background-color: dimgray;  */
+    display: flex;
+  
+   
+  
+
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -56,7 +80,8 @@ p {
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
-    background-position: center;
+    /* remove background positioning center  */
+    /* background-position: center;  */
 }
 
 .float-left {
@@ -73,61 +98,52 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+
 }
 
+
 .benefits {
+    /* position: center;  */
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
-    width: 20%;
+    width: 20%; 
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    /* background-color: #2589bd; */
+
 }
 
 .benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: #584b77;
+    
 }
 
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: #584b77;
 }
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: #584b77;
 }
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* combined h3   */
+.benefit-lead h3,
+.benefit-brand h3,
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+   
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
@@ -137,28 +153,41 @@ p {
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    /* height: 300px;  */ 
+    /* set the height auto  */
+    height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    /* background-color:#792b5eed;  */
+    background-color: rgba(132, 0, 187, 0.16);
+    /* color: #ffffff;  */
+
+    color: #584b77;
+
 }
 
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    /* height: 300px;  */
+    height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    /* background-color: #0072bb;  */
+    background-color: rgba(132, 0, 187, 0.16);
+    background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/11/15-Presentation-Background-Examples33.png);
+    
     color: #ffffff;
 }
 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    /* height: 300px;  */
+    height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: rgba(132, 0, 187, 0.16);
+    /* color: #ffffff;  */
+    color: #584b77;
+
 }
 
 .search-engine-optimization img {
